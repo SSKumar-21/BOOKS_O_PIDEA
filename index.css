@@ -1,0 +1,188 @@
+
+
+.gradient-background{
+    background: linear-gradient(300deg, hotpink,blue,purple);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#books{border-radius: 10%;}
+.containers{margin-left: 0px;margin-right: 0px;}
+.hi{color: blue;}
+
+.bar-login{ 
+  color: white;
+}
+
+a{
+    color: #fff;
+    transition: all 0.3s ease;
+ }
+
+a:hover{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 white;
+    width: auto;
+    height: auto;
+    padding:10px ;
+    color: black;
+    
+}
+
+#buy_book{
+    transition: all 0.3s ease;
+}
+
+#buy_book:hover{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 white;
+    color: black;
+    
+}
+
+#books {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#books:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 1);
+}
+
+
+.searching form {
+    display: flex;
+    align-items: center;
+}
+
+.searching input {
+    margin-right: 5px; /* Adjust the margin as needed */
+}
+
+#btn_search{
+    padding: 7px;
+    background: transparent;
+    border: 1px white solid;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+ }
+
+ #btn_search:hover{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 white;
+    color: black;
+    width: auto;
+    height: auto;
+    padding:10px ;
+    
+}
+
+.bar-login{ 
+  color: white;
+}
+
+.pic9 a{
+  color: #b4bcc494;
+  
+}
+
+#btn-view {
+  border: 0.5px solid rgb(255, 255, 255);
+  color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  background: transparent;
+}
+
+#btn-view:hover {
+  box-shadow: 0 0px 50px rgb(255, 255, 255);
+  color: #000;
+}
+
+#btn-header {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+#btn-header:hover {
+  box-shadow: 0 0px 50px rgb(255, 255, 255);
+}
+
+#btn-user {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  border: none;
+  margin-left: 20px;
+  margin-right: 10px;
+  background: transparent;
+  padding: 5px;
+}
+
+#btn-user:hover {
+  box-shadow: 0 0px 50px rgb(255, 255, 255);
+}
+
+
+#insta:hover {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #8c07e4, #ee315a,rgb(217, 15, 173));
+    box-shadow: 0 0 20px 0 #da627d;
+    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+#youtube:hover {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #e47607, #ff0037,rgb(207, 217, 15));
+    box-shadow: 0 0 20px 0 #ff0000;
+    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+#mailid:hover {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #3b07e4, #0eabca,rgb(15, 217, 180));
+    box-shadow: 0 0 20px 0 #007bff;
+    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.anone:hover{
+  border: none;
+    
+}

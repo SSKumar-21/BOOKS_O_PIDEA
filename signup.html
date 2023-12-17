@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS_O_PIDEA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="body">
+    <div class="main">
+        <form id="myForm" method="post">
+            <h1>SIGNUP</h1>
+            <div class="input-box user">
+                <input type="text" name="user" placeholder="Username..." required>
+            </div>
+            <div class="input-box mail">
+                <input type="email" name="mail" placeholder="Email..." required>
+            </div>
+            <div class="input-box passs">
+                <input type="password" name="pass" placeholder="Create Password..." required>
+            </div>
+            <div class="button">
+                <input type="submit" class="btn btn-warning" value="SUBMIT">
+            </div>
+        </form>
+        <div class="login-page">
+            <a href="./login.html">Have Account?</a>
+            <p>
+                <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+            </p>
+        </div>
+        <div id="home">
+            <a href="./index.html">Home</a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</body>
+
+</html>
